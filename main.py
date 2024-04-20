@@ -64,8 +64,8 @@ except Exception as e:
 STAGE_NAME = "Model Evaluation STAGE"
 try:
     logger.info(f">>>>>>> stage {STAGE_NAME} started <<<<<<<<<")
-    model_trainer = ModelEvaluationPipeline()
-    model_trainer.main()
+    model_evaluation = ModelEvaluationPipeline()
+    model_evaluation.main()
     logger.info(f">>>>>>> stage {STAGE_NAME} completed <<<<<<<<<")
 
 except Exception as e:
