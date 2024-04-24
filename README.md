@@ -11,6 +11,7 @@ This project uses the Hugging Face library to summarize text input by the user, 
 - Fine-tuned "google/pegasus-cnn_dailymail" model for improved accuracy
 - CI/CD pipeline using GitHub Workflows
 - Deployed on AWS Cloud for scalability and reliability
+- Model can be trained on custom data using Train button on **FASTAPI**
 
 ## Usage
 
